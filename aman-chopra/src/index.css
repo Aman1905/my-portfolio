@@ -1,3 +1,7 @@
+/* :root {
+  
+} */
+
 body {
   margin: 0;
   padding: 0;
@@ -6,9 +10,48 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("../assets/home.png"); /* Replace with your image path */
+  background-size: cover; /* Ensures image covers the entire viewport */
+  background-repeat: no-repeat; /* Prevents image tiling */
+  background-position: center; /* Centers the image horizontally and vertically */
+  height: 100vh; /* Ensures background covers the entire viewport height */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* ---------- Navbar starting ---------- */
+.navbar__main .navbar-toggler{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  top: 0;
+  right: 0;
+  position: fixed;
+  /* width: 100%; */
+  height: fit-content;
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  z-index: 10;
+  list-style: none;
+  margin-left: 10px !important;
+}
+
+.navbar__element {
+  color: wheat !important;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 17px;
+  text-transform: capitalize;
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar__element:hover {
+  color: aliceblue;
+}
+
+/* ---------- Navbar ending ---------- */
