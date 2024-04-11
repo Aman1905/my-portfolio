@@ -3,7 +3,7 @@ import React from 'react'
 const BlogPost = ({ title, image, buttonText, buttonLink }) => {
     return (
       <div className="blog-post">
-        <a href={buttonLink} className="blog-post-button">
+        <a href={buttonLink} className="blog-post-button" rel='noreferrer' target='_blank'>
             <img src={image} alt={title} className="blog-post-image" />
             <h3 className="blog-post-title">{title}</h3>
         </a>
