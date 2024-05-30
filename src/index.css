@@ -1,17 +1,14 @@
-body {
-  margin: 0;
+* {
+  /* margin: 0; */
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  text-decoration: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("../public/assets/home.png"); /* Replace with your image path */
-  background-size: cover; /* Ensures image covers the entire viewport */
-  background-repeat: repeat; /* Prevents image tiling */
-  background-position: center; /* Centers the image horizontally and vertically */
-  height: fit-content; /* Ensures background covers the entire viewport height */
-  text-decoration: none;;
+  --black-color: #010101;
+  --white-color: #fefdfd;
+  --grey-color: #b1aebb;
+  --light-purple-color: #5f43b2;
+  --dark-purple-color: #3a3153;
 }
 
 code {
@@ -21,34 +18,80 @@ code {
 
 
 /* ---------- Navbar starting ---------- */
-.navbar__main .navbar-toggler{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  top: 0;
-  right: 0;
-  position: fixed;
-  /* width: 100%; */
-  height: fit-content;
-  padding: 10px 20px;
-  background: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(3px);
-  z-index: 10;
-  list-style: none;
-  margin-left: 10px !important;
+.navbar__title {
+  color: var(--black-color) !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar__togglerButton {
+  border: none;
 }
 
 .navbar__element {
-  color: wheat !important;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 17px;
-  text-transform: capitalize;
-  transition: color 0.2s ease-in-out;
+  color: var(--grey-color);
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navbar__element:hover {
-  color: aliceblue;
+  border-color: var(--grey-color);
+  border-radius: 8px;
+  background: rgb(248, 248, 248);
+  border-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar__title {
+    font-size: 1.6rem;
+  }
+
+  .navbar__togglerButton {
+    font-size: 1rem;
+    border: none;
+  }
+
+  .navbar__element {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .navbar__title {
+    font-size: 1.5rem;
+  }
+
+  .navbar__togglerButton {
+    font-size: 1rem;
+    border: none;
+  }
+
+  .navbar__element {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .navbar__title {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .navbar__title {
+    font-size: 1.4rem;
+  }
+
+  .navbar__togglerButton {
+    font-size: 0.8rem;
+  }
+
+  .navbar__element {
+    font-size: 0.7rem;
+  }
 }
 
 /* ---------- Navbar ending ---------- */
