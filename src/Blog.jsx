@@ -51,12 +51,12 @@ const posts = [
 
 const Blog = () => {
   return (
-    <>
+    <div className='container'>
       <Navbar />
       <div className="blog-page">
         <BlogSection posts={posts} />
       </div>
-    </>
+    </div>
   );
 };
 

@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 const Home = () => {
   return (
-    <div>
+    <div className='container'>
       <Navbar />
       <h1>Home Page</h1>
     </div>

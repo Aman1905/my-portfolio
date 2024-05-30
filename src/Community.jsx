@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 const Community = () => {
   return (
-    <div>
+    <div className='container'>
       <Navbar />
       <h1>Community Page</h1>
     </div>
