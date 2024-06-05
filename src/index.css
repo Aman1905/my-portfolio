@@ -9,18 +9,14 @@
   --grey-color: #b1aebb;
   --light-purple-color: #5f43b2;
   --dark-purple-color: #3a3153;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  --text-font: "Inter", sans-serif
 }
 
 
 /* ---------- Navbar starting ---------- */
 .navbar__title {
   color: var(--black-color) !important;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: var(--text-font);
   font-size: 2rem;
   font-weight: bold;
 }
@@ -31,6 +27,7 @@ code {
 
 .navbar__element {
   color: var(--grey-color);
+  font-family: var(--text-font);
   font-size: 1.2rem;
   font-weight: 500;
   display: flex;
@@ -93,64 +90,54 @@ code {
     font-size: 0.7rem;
   }
 }
-
 /* ---------- Navbar ending ---------- */
 
+/* Homepage starting */
+.home__page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.home__text {
+  flex: 1;
+  min-width: 300px;
+  margin-right: 1.25rem;
+}
+
+.home__image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.home__image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  /* border: 2px solid rgba(0, 0, 0, 0.1); */
+  padding: 5px; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+@media (max-width: 768px) {
+  .home__page {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home__text {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* Homepage ending */
 
 /* ---------- blog starting ---------- */
 
-.blog-page {
-  padding: 50px 0;
-  color: #ADD8E6;
-  text-align: center;
-}
-
-.blog-section-heading {
-  margin-bottom: 50px;
-  font-size: 4em;
-  font-weight: 600;
-  font-family: cursive;
-}
-
-.blog-posts {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 25px;
-  justify-content: space-between;
-}
-
-.blog-post {
-  width: 30%;
-  margin-bottom: 20px;
-  background-color: rgba(240, 230, 230, 0.5); /* Semi-transparent background */
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(161, 150, 150, 0.2);
-  transition: all 0.2s ease-in-out;
-}
-
-.blog-post:hover {
-  transform: scale(1.05);
-  cursor: pointer;
-}
-
-a .blog-post-image {
-  width: 100%;
-  height: 100px;
-  object-fit: contain;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
-
-a .blog-post-title {
-  font-size: 1.6em;
-  font-weight: 700;
-  color: aliceblue;
-  margin-bottom: 10px;
-  bottom: 0;
-}
-
-.blog-post-button {
-  text-decoration: none !important;
-}
 /* ---------- blog ending ---------- */
