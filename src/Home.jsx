@@ -11,10 +11,10 @@ import mediumIcon from './assets/medium.png'
 const Home = () => {
 
   const socialData = [
-    { platform: 'LinkedIn', handle: '@iam_chopra_aman', icon: linkedIcon },
-    { platform: 'Twitter', handle: '@iam-aman-chopra', icon: twitterIcon },
-    { platform: 'GitHub', handle: '@aman1905', icon: githubIcon },
-    { platform: 'Medium', handle: '@amanchopra-atg', icon: mediumIcon },
+    { socialUrl: 'https://www.linkedin.com/in/iam-aman-chopra/', platform: 'LinkedIn', handle: '@iam_chopra_aman', icon: linkedIcon },
+    { socialUrl: 'https://twitter.com/iam_chopra_aman', platform: 'Twitter', handle: '@iam-aman-chopra', icon: twitterIcon },
+    { socialUrl: 'https://github.com/Aman1905', platform: 'GitHub', handle: '@aman1905', icon: githubIcon },
+    { socialUrl: 'https://amanchopra-atg.medium.com/', platform: 'Medium', handle: '@amanchopra-atg', icon: mediumIcon },
   ];
   
   return (
@@ -30,6 +30,7 @@ const Home = () => {
           {socialData.map((social, index) => (
             <Social
               key={index}
+              socialUrl={social.socialUrl}
               platform={social.platform}
               username={social.username}
               handle={social.handle}
