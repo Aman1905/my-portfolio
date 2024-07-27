@@ -6,7 +6,8 @@ const Project = () => {
     <>
       <Navbar />
       <div className='container'>
-        <h1>Projects</h1>
+        <h1>COMING SOON!!</h1>
+        <h2>This page is under development</h2>
       </div>
     </>
   )
