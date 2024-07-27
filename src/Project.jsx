@@ -3,10 +3,12 @@ import Navbar from './Navbar'
 
 const Project = () => {
   return (
-    <div className='container'>
+    <>
       <Navbar />
-      <h1>Project</h1>
-    </div>
+      <div className='container'>
+        <h1>Projects</h1>
+      </div>
+    </>
   )
 }
 
