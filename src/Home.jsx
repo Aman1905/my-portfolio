@@ -18,33 +18,34 @@ const Home = () => {
   ];
   
   return (
-    <div className='container'>
+    <>
       <Navbar />
+      <div className='container'>
+        <div className='home__page'>
+          <div className='home__text'>
+            <h1>Aman Chopra</h1>
+            <h4><span style={{color:'var(--light-purple-color)'}}> DevRel - Technical Writer | Product Builder | Cloud and DevOps Evangelist</span> </h4>
 
-      <div className='home__page'>
-        <div className='home__text'>
-          <h1>Aman Chopra</h1>
-          <h4><span style={{color:'var(--light-purple-color)'}}> DevRel - Technical Writer | Product Builder | Cloud and DevOps Evangelist</span> </h4>
+            <div className="home__social">
+            {socialData.map((social, index) => (
+              <Social
+                key={index}
+                socialUrl={social.socialUrl}
+                platform={social.platform}
+                username={social.username}
+                handle={social.handle}
+                icon={social.icon}
+              />
+            ))}
+          </div>
 
-          <div className="home__social">
-          {socialData.map((social, index) => (
-            <Social
-              key={index}
-              socialUrl={social.socialUrl}
-              platform={social.platform}
-              username={social.username}
-              handle={social.handle}
-              icon={social.icon}
-            />
-          ))}
-        </div>
-
-        </div>
-        <div className='home__image'>
-          <img src={aman} alt='my-profile-pic'/>
+          </div>
+          <div className='home__image'>
+            <img src={aman} alt='my-profile-pic'/>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 
