@@ -24,7 +24,7 @@ const Home = () => {
         <div className='home__page'>
           <div className='home__text'>
             <h1>Aman Chopra</h1>
-            <h4><span style={{color:'var(--light-purple-color)'}}> DevRel - Technical Writer | Product Builder | Cloud and DevOps Evangelist</span> </h4>
+            <h4><span style={{color:'var(--light-purple-color)'}}> DevRel - Technical Writer | Cloud and DevOps Evangelist</span> </h4>
 
             <div className="home__social">
             {socialData.map((social, index) => (
