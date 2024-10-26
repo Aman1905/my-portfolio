@@ -5,10 +5,12 @@ import Blog from './Blog';
 import Project from './Project';
 import Work from './Work';
 import NoPage from './NoPage'
+import Navbar from './Navbar';
 
 const App = () => {
   return (
     <BrowserRouter>
+    <Navbar />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="blogs" element={<Blog />} />

@@ -11,7 +11,6 @@ import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 const Work = () => {
   return (
     <>
-      <Navbar />
       <div className='container'>
         <div className='container blog__page'>
           <Timeline position="alternate">

@@ -19,7 +19,6 @@ const Home = () => {
   
   return (
     <>
-      <Navbar />
       <div className='container'>
         <div className='home__page'>
           <div className='home__text'>

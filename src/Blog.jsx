@@ -28,7 +28,6 @@ import lambdaBlog14 from './assets/lambdaBlog14.png'
 const Blog = () => {
   return (
     <>
-      <Navbar />
         <div className='container blog__page'>
           <p className='blogPage__heading'><b>Beware!! </b><i>The Room of Requirement</i> still holds the traces of <i><strong>He-Who-Must-Not-Be-Named's</strong></i> dark magic.</p>
             {blogData.map((post, ind) => (
