@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from './Navbar'
 import aman from './assets/aman-chopra.png'
 import Social from './Social'
 import './index.css'

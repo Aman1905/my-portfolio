@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from './Navbar'
 import BlogCard from './BlogCard';
 import azure from './assets/azure-ci-cd.jpeg'
 import aws from './assets/aws.jpeg'

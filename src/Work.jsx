@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from './Navbar'
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
