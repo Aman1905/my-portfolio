@@ -322,3 +322,70 @@
 
 /* ---------- blog ending ---------- */
 
+/* ---------- work starting ---------- */
+
+.work-outer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.work-heading {
+  width: 100%;
+  background-color: rgb(246, 246, 241);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.work-heading h3 {
+  font-size: 22px;
+  color: var(--black-color);
+}
+
+.work-heading h6 {
+  color: var(--dark-purple-color);
+  font-size: 14px; 
+  margin-bottom: 0;
+}
+
+.work-heading a {
+  text-decoration: none;
+  color: var(--light-purple-color);
+}
+
+.work-description p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: var(--dark-purple-color);
+  text-align: left;
+  text-decoration: none;
+}
+
+.work-description a {
+  text-decoration: none;
+  /* color: var(--light-purple-color); */
+}
+
+.work-description-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.work-description {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ---------- work ending ---------- */
