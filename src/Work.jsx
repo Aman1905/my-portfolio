@@ -15,7 +15,32 @@ const Work = () => {
           <Timeline position="alternate">
             {/* lambdatest start */}
             <TimelineItem>
-              <TimelineOppositeContent color="text.secondary">June 2023 - Present</TimelineOppositeContent>
+              <TimelineOppositeContent color="text.secondary">April 2025 - Present</TimelineOppositeContent>
+              <TimelineSeparator>
+                <TimelineDot />
+                <TimelineConnector />
+              </TimelineSeparator>
+              <TimelineContent>
+                <div className="work-outer-card">
+                  <div className="work-heading">
+                    <h3>DevOps Engineer@<a href='https://lambdatest.com/' target='_blank' rel="noreferrer">LambdaTest</a></h3>
+                  </div>
+                  <div className="work-description-row">
+                    <div className="work-description">
+                      <p><strong>Cost Optimization:</strong> Optimized Azure cloud infrastructure by identifying and cleaning up unused resources, significantly reducing costs. Automated weekly alerts to track underutilized assets and enforced governance through Azure policies to ensure compliance with security and cost controls.</p>
+                    </div>
+                    <div className="work-description">
+                      <p><strong>Inventory Utilization Monitoring:</strong> Implemented inventory utilization monitoring to track resource usage trends, enabling proactive optimization and improved capacity planning across cloud infrastructure.</p>
+                    </div>
+                  </div>
+                  <div className="work-heading">
+                    <h6>Azure Policies, Azure Storage, Azure Container Registry, GitHub Actions, CI/CD</h6>
+                  </div>
+                </div>
+              </TimelineContent>
+            </TimelineItem>
+            <TimelineItem>
+              <TimelineOppositeContent color="text.secondary">June 2023 - March 2025</TimelineOppositeContent>
               <TimelineSeparator>
                 <TimelineDot />
                 <TimelineConnector />
