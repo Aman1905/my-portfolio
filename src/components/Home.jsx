@@ -1,11 +1,11 @@
 import React from 'react'
-import aman from './assets/aman-chopra.png'
+import aman from '../assets/aman-chopra.png'
 import Social from './Social'
-import './index.css'
-import twitterIcon from './assets/twitter.png'
-import linkedIcon from './assets/linkedin.png'
-import githubIcon from './assets/github.png'
-import mediumIcon from './assets/medium.png'
+import "../index.css"
+import twitterIcon from '../assets/twitter.png'
+import linkedIcon from '../assets/linkedin.png'
+import githubIcon from '../assets/github.png'
+import mediumIcon from '../assets/medium.png'
 
 const Home = () => {
 

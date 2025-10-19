@@ -1,11 +1,12 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from './Home';
-import Blog from './Blog';
-import Project from './Project';
-import Work from './Work';
-import NoPage from './NoPage'
-import Navbar from './Navbar';
+import Home from './components/Home';
+import Blog from './components/Blog';
+import Project from './components/Project';
+import Work from './components/Work';
+import NoPage from './components/NoPage'
+import Navbar from './components/Navbar';
+import IndiaMap from './components/IndiaMap';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Route path="blogs" element={<Blog />} />
       <Route path="projects" element={<Project />} />
       <Route path="work" element={<Work />} />
+      <Route path="travel" element={<IndiaMap />} />
       <Route path="*" element={<NoPage />} />
     </Routes>
   </BrowserRouter>

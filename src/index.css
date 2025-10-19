@@ -12,6 +12,10 @@
   --text-font: "Inter", sans-serif;
 }
 
+path:focus {
+  outline: none !important;
+}
+
 .container {
   text-align: center;
 }
@@ -455,3 +459,4 @@
 }
 
 /* ---------- project ending ---------- */
+

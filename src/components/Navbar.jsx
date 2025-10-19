@@ -15,6 +15,7 @@ const Navbar = () => {
             <li className='navbar-item'><Link className='nav-link navbar__element' to="/work">Work</Link></li>
             <li className='navbar-item'><Link className='nav-link navbar__element' to="/projects">Projects</Link></li>
             <li className='navbar-item'><Link className='nav-link navbar__element' to="/blogs">Blogs</Link></li>
+            <li className='navbar-item'><Link className='nav-link navbar__element' to="/travel">Travel</Link></li>
           </ul>
         </div>
       </div>

@@ -1,0 +1,119 @@
+{
+    "Himachal Pradesh": {
+        "title": "",
+        "places": [
+            {"name": "Triund", "coordinates": [76.3565, 32.2596] },
+            {"name": "McLeodGanj", "coordinates": [76.3213, 32.2426] },
+            {"name": "Dharmshala", "coordinates": [76.3234, 32.2190] },
+            {"name": "Khir Ganga", "coordinates": [77.5097, 31.9930] },
+            {"name": "Kasol", "coordinates": [77.3150, 32.0100]}
+        ]
+    },
+
+    "Punjab": {
+        "title": "",
+        "places": [
+            {"name": "Amritsar", "coordinates": [74.8723, 31.6340] }
+        ]
+    },
+
+    "Haryana": {
+        "title": "",
+        "places": [
+            {"name": "Gurugram", "coordinates": [77.0266, 28.4595] }
+        ]
+    },
+
+    "Chandigarh": {
+        "title": "",
+        "places": [
+            {"name": "Chandigarh", "coordinates": [76.7794, 30.7333] }
+        ]
+    },
+
+    "Delhi": {
+        "title": "",
+        "places": [
+            {"name": "Delhi", "coordinates": [77.1025, 28.7041] }
+        ]
+    },
+
+    "Uttarakhand": {
+        "title": "Exploring Devbhoomi",
+        "places": [
+            { "name": "Rishikesh", "coordinates": [78.2853, 30.1158] },
+            { "name": "Jim Corbett", "coordinates": [78.44, 29.39] },
+            { "name": "Dehradun", "coordinates": [78.0322, 30.3165] },
+            { "name": "Haridwar", "coordinates": [78.1642, 29.9457] },
+            {"name": "Tunganath", "coordinates": [79.1255, 30.2922]}
+        ]
+    },
+
+    "Rajasthan": {
+        "title": "Exploring Rajasthan",
+        "places": [
+            { "name": "Jaipur", "coordinates": [75.7873, 26.9124] },
+            { "name": "Udaipur", "coordinates": [73.7125, 24.5854] },
+            { "name": "Jodhpur", "coordinates": [73.0243, 26.2389] }
+        ]
+    },
+
+    "Uttar Pradesh": {
+        "title": "Exploring Rajasthan",
+        "places": [
+            { "name": "Prayagraj", "coordinates": [81.8546, 25.4683] },
+            { "name": "Varanasi", "coordinates": [82.9739, 25.3176]}
+        ]
+    },
+
+    "Bihar": {
+        "title": "Exploring Rajasthan",
+        "places": [
+            { "name": "Patna Sahib Gurudwara", "coordinates": [85.245, 25.4167] }
+        ]
+    },
+
+    "Jharkhand": {
+        "title": "Exploring Rajasthan",
+        "places": [
+            { "name": "Ranchi", "coordinates": [85.3096, 23.3441] },
+            { "name": "Baidyanath Jyotirling", "coordinates": [86.7000, 24.4925] }
+        ]
+    },
+
+    "West Bengal": {
+        "title": "Exploring Rajasthan",
+        "places": [
+            { "name": "Kolkata", "coordinates": [88.3629, 22.5744] }
+        ]
+    },
+
+    "Sikkim": {
+        "title": "Exploring Rajasthan",
+        "places": [
+            { "name": "Gangtok", "coordinates": [88.6138, 27.3314] }
+        ]
+    },
+
+    "Odisha": {
+        "title": "Exploring Rajasthan",
+        "places": [
+            { "name": "", "coordinates": [] }
+        ]
+    },
+
+    "Maharashtra": {
+        "title": "Exploring Rajasthan",
+        "places": [
+            { "name": "Mumbai", "coordinates": [72.8321, 18.9582] },
+            { "name": "Nashik", "coordinates": [73.7900, 19.9993] }
+        ]
+    },
+
+    "Karnataka": {
+        "title": "Exploring Rajasthan",
+        "places": [
+            { "name": "Bellandur", "coordinates": [77.6784, 12.9304] }
+        ]
+    }
+}
