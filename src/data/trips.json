@@ -62,7 +62,9 @@
         "title": "Exploring Rajasthan",
         "places": [
             { "name": "Prayagraj", "coordinates": [81.8546, 25.4683] },
-            { "name": "Varanasi", "coordinates": [82.9739, 25.3176]}
+            { "name": "Varanasi", "coordinates": [82.9739, 25.3176]},
+            { "name": "Vrindavan", "coordinates": [77.6593, 27.5650]},
+            { "name": "Mathura", "coordinates": [77.6737, 27.4924]}
         ]
     },
 
