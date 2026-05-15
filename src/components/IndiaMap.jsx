@@ -103,7 +103,7 @@ export default function IndiaMap() {
                       height={iconSize}
                       href="https://img.icons8.com/?size=100&id=uzeKRJIGwbBY&format=png&color=000000"
                       style={{ cursor: "pointer" }}
-                      onClick={() => navigate(`/place/${stateName.toLowerCase()}/${place.name.toLowerCase()}`)}
+                      onClick={() => navigate(`/state/${stateName.toLowerCase()}/${place.name.toLowerCase()}`)}
                       onMouseEnter={() => { setHoveredPlace(place); setTooltipPos([x, y - iconSize]); }}
                       onMouseLeave={() => setHoveredPlace(null)}
                     />

@@ -460,3 +460,53 @@ path:focus {
 
 /* ---------- project ending ---------- */
 
+/* ---------- poloroid starting ---------- */
+
+.polaroid-card {
+  width: 150px;
+  margin: 10px;
+  background: white;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transform: rotate(calc(-3deg + 6deg * var(--i)));
+  transition: transform 0.3s ease, opacity 0.5s ease;
+  opacity: 0;
+  animation: fadeIn 0.8s forwards;
+}
+
+.polaroid-card:hover {
+  transform: scale(1.1) rotate(0deg);
+  cursor: pointer;
+}
+
+.polaroid-card img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.polaroid-section {
+  margin: 20px 0;
+}
+
+.polaroid-section h2 {
+  margin-bottom: 5px;
+}
+
+.polaroid-section p {
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.polaroid-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
